@@ -1,0 +1,38 @@
+---
+- hosts: power
+  tasks:
+  - name: "update hostnames"
+    hostname:
+      name: "test-ppc-docker"
+  - name: installing podman
+    package:
+      name: "podman"
+      state: present
+  - name: Pull httpd image
+    containers.podman.podman_image:
+      name: docker.io/library/httpd
+  - name: Pull coredns image
+    containers.podman.podman_image:
+      name: docker.io/coredns/coredns
+  - name: Pull nginx image
+    containers.podman.podman_image:
+      name: docker.io/bitnami/nginx
+  - name: Copying html into home
+    copy:
+      src: index.html
+      dest: /usr/local/apache2/htdocs/
+  - name: Copying svg into home
+    copy:
+      src: Ansible_logo.svg
+      dest:  /usr/local/apache2/htdocs/  
+  - name: run httpd container
+    containers.podman.podman_container:
+      name: httpd
+      image: docker.io/library/httpd
+      state: started
+      detach: true
+      exposed_ports:
+        - 80
+      ports:
+        - 80:80
+      volumes: /usr/local/apache2/htdocs/:/usr/local/apache2/htdocs/

@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: show some facts
+    debug: 
+      msg: >
+       {{ ansible_facts.fqdn }} {{ansible_facts.memory_mb.real.total}} {{ ansible_facts.architecture }} {{ ansible_facts.virtualization_type }}

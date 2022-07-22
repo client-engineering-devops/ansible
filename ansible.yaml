@@ -1,9 +1,9 @@
 ---
-- hosts: power
+- hosts: both
   tasks:
   - name: "update hostnames"
     hostname:
-      name: "test-ppc-docker"
+      name: "test-power-podman"
   - name: installing podman
     package:
       name: "podman"
@@ -23,7 +23,7 @@
       dest: /usr/local/apache2/htdocs/
   - name: Copying svg into home
     copy:
-      src: Ansible_logo.svg
+      src: ansible.svg
       dest:  /usr/local/apache2/htdocs/  
   - name: run httpd container
     containers.podman.podman_container:

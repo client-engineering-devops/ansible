@@ -1,0 +1,7 @@
+[both:children]
+fedora
+power
+[fedora]
+test-x86-podman
+[power]
+test-ppc-podman

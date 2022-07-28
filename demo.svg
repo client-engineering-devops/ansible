@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1059.1 195" style="enable-background:new 0 0 1059.1 195;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'IBMPlexMono';}
+	.st1{font-size:18px;}
+	.st2{fill:#061DF7;}
+	.st3{font-size:11px;}
+	.st4{fill:#263AF8;}
+</style>
+<g>
+	<ellipse cx="672.4" cy="53.7" rx="15.9" ry="5.4"/>
+	<path d="M624.8,75.1h349.5c17.6,0,31.8-4.8,31.8-10.7V42.9c0-5.9-14.2-10.7-31.8-10.7H624.8c-17.6,0-31.8,4.8-31.8,10.7v21.5
+		C593,70.3,607.2,75.1,624.8,75.1z M624.8,42.9h349.5v21.5H624.8V42.9z"/>
+</g>
+<text transform="matrix(1 0 0 1 656.4916 100.2283)" class="st0 st1">test-ppc-podman</text>
+<text transform="matrix(1 0 0 1 656.5483 181.6753)" class="st0 st1">test-x86-podman</text>
+<text transform="matrix(1 0 0 1 702.9734 57.0443)" class="st2 st0 st3">podman | httpd |index.html | ansible.svg</text>
+<g>
+	<ellipse cx="672.4" cy="133.8" rx="15.9" ry="5.4"/>
+	<path d="M624.8,155.3h349.5c17.6,0,31.8-4.8,31.8-10.7v-21.5c0-5.9-14.2-10.7-31.8-10.7H624.8c-17.6,0-31.8,4.8-31.8,10.7v21.5
+		C593,150.5,607.2,155.3,624.8,155.3z M624.8,123.1h349.5v21.5H624.8V123.1z"/>
+</g>
+<text transform="matrix(1 0 0 1 704.0184 137.2002)" class="st2 st0 st3">podman | httpd |index.html | ansible.svg</text>
+<g>
+	<ellipse cx="152" cy="53.4" rx="15.9" ry="5.4"/>
+	<path d="M104.4,74.9h349.5c17.6,0,31.8-4.8,31.8-10.7V42.7c0-5.9-14.2-10.7-31.8-10.7H104.4c-17.6,0-31.8,4.8-31.8,10.7v21.5
+		C72.6,70.1,86.8,74.9,104.4,74.9z M104.4,42.7h349.5v21.5H104.4V42.7z"/>
+</g>
+<text transform="matrix(1 0 0 1 136.0665 99.9678)" class="st0 st1">test-ppc-podman</text>
+<text transform="matrix(1 0 0 1 136.1232 181.4147)" class="st0 st1">test-x86-podman</text>
+<g>
+	<ellipse cx="152" cy="133.6" rx="15.9" ry="5.4"/>
+	<path d="M104.4,155h349.5c17.6,0,31.8-4.8,31.8-10.7v-21.5c0-5.9-14.2-10.7-31.8-10.7H104.4c-17.6,0-31.8,4.8-31.8,10.7v21.5
+		C72.6,150.2,86.8,155,104.4,155z M104.4,122.8h349.5v21.5H104.4V122.8z"/>
+</g>
+<g>
+	<g>
+		<g>
+			<g>
+				<polygon class="st4" points="552.8,69.5 568.7,53.6 552.9,37.7 566.3,37.8 582.2,53.7 566.2,69.5 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polygon class="st4" points="521,69.4 537,53.5 521.1,37.6 534.6,37.7 550.4,53.6 534.5,69.4 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polygon class="st4" points="489.3,69.3 505.2,53.5 489.4,37.5 502.9,37.6 518.7,53.5 502.8,69.3 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<g>
+				<polygon class="st4" points="552.8,149.9 568.7,134.1 552.9,118.2 566.3,118.2 582.2,134.2 566.2,150 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polygon class="st4" points="521,149.8 537,134 521.1,118.1 534.6,118.2 550.4,134.1 534.5,149.9 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polygon class="st4" points="489.3,149.8 505.2,133.9 489.4,118 502.9,118.1 518.7,134 502.8,149.8 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
